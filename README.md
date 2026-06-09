@@ -98,6 +98,7 @@ I reverse engineered the `_KTHREAD` structure to find the `PreviousMode` field (
 This bypasses checks that would otherwise prevent certain operations from user-space initiated calls.
 
 The manual driver mapping is essentially rootkit-level functionality, but achieved through a legitimate signed driver. That's the reality of BYOVD attacks you're using the system's trust in signed code against itself.
+I will update it to be better but i know its good for mapping Drivers and Being undetected on games that use battleye and also bypasses the Fivem anticheat like showin in the vid below which is a p2c cheat that uses polonium mapper
 
 <img width="400" height="225" alt="FiveM FiveM exe 2026 06 09 - 21 19 41 02" src="https://github.com/user-attachments/assets/85220acf-67d2-4eea-909b-f17c322e5420" />
 

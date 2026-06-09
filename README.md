@@ -99,5 +99,6 @@ This bypasses checks that would otherwise prevent certain operations from user-s
 
 The manual driver mapping is essentially rootkit-level functionality, but achieved through a legitimate signed driver. That's the reality of BYOVD attacks you're using the system's trust in signed code against itself.
 
-![Uploading FiveM FiveM.exe 2026.06.09 - 21.19.41.02.gif…]()
+<img width="400" height="225" alt="FiveM FiveM exe 2026 06 09 - 21 19 41 02" src="https://github.com/user-attachments/assets/85220acf-67d2-4eea-909b-f17c322e5420" />
+
 

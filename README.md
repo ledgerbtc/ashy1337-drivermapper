@@ -98,3 +98,6 @@ I reverse engineered the `_KTHREAD` structure to find the `PreviousMode` field (
 This bypasses checks that would otherwise prevent certain operations from user-space initiated calls.
 
 The manual driver mapping is essentially rootkit-level functionality, but achieved through a legitimate signed driver. That's the reality of BYOVD attacks you're using the system's trust in signed code against itself.
+
+![Uploading FiveM FiveM.exe 2026.06.09 - 21.19.41.02.gif…]()
+

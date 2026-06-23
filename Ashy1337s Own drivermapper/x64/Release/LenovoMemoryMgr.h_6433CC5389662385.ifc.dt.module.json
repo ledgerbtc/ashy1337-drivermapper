@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Release\\LenovoMemoryMgr.obj",
+            "outputs": [
+                "x64\\Release\\LenovoMemoryMgr.h_6433CC5389662385.ifc.dt.module.json",
+                "x64\\Release\\LenovoMemoryMgr.h_6433CC5389662385.ifc.dt.d.json",
+                "x64\\Release\\LenovoMemoryMgr.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\Users\\PC\\Downloads\\Polonium Mapper\\Ashy1337s Own drivermapper\\LenovoMemoryMgr.h",
+                    "source-path": "c:\\users\\pc\\downloads\\polonium mapper\\ashy1337s own drivermapper\\lenovomemorymgr.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

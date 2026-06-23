@@ -1,0 +1,701 @@
+﻿  drivermapper.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(111,24): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+  (compiling source file 'drivermapper.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(111,36): error C2039: 'absolute': is not a member of 'std'
+  (compiling source file 'drivermapper.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm(225,1):
+      see declaration of 'std'
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(111,50): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+  (compiling source file 'drivermapper.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(111,62): error C2039: 'path': is not a member of 'std'
+  (compiling source file 'drivermapper.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm(225,1):
+      see declaration of 'std'
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(111,62): error C3861: 'path': identifier not found
+  (compiling source file 'drivermapper.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(111,36): error C3861: 'absolute': identifier not found
+  (compiling source file 'drivermapper.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(112,46): error C3536: 'abs_path': cannot be used before it is initialized
+  (compiling source file 'drivermapper.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(148,31): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+  (compiling source file 'drivermapper.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(148,43): error C2039: 'temp_directory_path': is not a member of 'std'
+  (compiling source file 'drivermapper.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm(225,1):
+      see declaration of 'std'
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(148,43): error C3861: 'temp_directory_path': identifier not found
+  (compiling source file 'drivermapper.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(148,14): error C2737: 'file_path': const object must be initialized
+  (compiling source file 'drivermapper.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,29): error C3536: 'file_path': cannot be used before it is initialized
+  (compiling source file 'drivermapper.cpp')
+  
+  ezpdb.cpp
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,28): error C2665: 'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream': no overloaded function could convert all the argument types
+  (compiling source file 'drivermapper.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\fstream(215,5):
+      could be 'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(FILE *)'
+          C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,28):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(FILE *)': cannot convert argument 1 from 'const int' to 'FILE *'
+              C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,58):
+              Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\fstream(206,5):
+      or       'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const std::wstring &,std::ios_base::openmode,int)'
+          C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,28):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const std::wstring &,std::ios_base::openmode,int)': cannot convert argument 1 from 'const int' to 'const std::wstring &'
+              C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,58):
+              Reason: cannot convert from 'const int' to 'const std::wstring'
+              C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,58):
+              'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string': no overloaded function could convert all the argument types
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(768,5):
+                  could be 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )'
+          with
+          [
+              _Elem=wchar_t
+          ]
+                      C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,58):
+                      'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )': cannot convert argument 1 from 'const int' to 'const _Elem *const '
+          with
+          [
+              _Elem=wchar_t
+          ]
+                          C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,58):
+                          Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(1340,5):
+                  or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
+          with
+          [
+              _Elem=wchar_t,
+              _Alloc=std::allocator<wchar_t>
+          ]
+                      C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,58):
+                      'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': cannot convert argument 1 from 'const int' to 'std::initializer_list<_Elem>'
+          with
+          [
+              _Elem=wchar_t,
+              _Alloc=std::allocator<wchar_t>
+          ]
+          and
+          [
+              _Elem=wchar_t
+          ]
+                          C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,58):
+                          Conversion requires a second user-defined-conversion operator or constructor
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(798,5):
+                  or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(_Iter,_Iter,const _Alloc &)'
+          with
+          [
+              _Alloc=std::allocator<wchar_t>
+          ]
+                  C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,58):
+                  while trying to match the argument list '(const int)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\fstream(197,5):
+      or       'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const wchar_t *,std::ios_base::openmode,int)'
+          C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,28):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const wchar_t *,std::ios_base::openmode,int)': cannot convert argument 1 from 'const int' to 'const wchar_t *'
+              C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,58):
+              Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\fstream(193,5):
+      or       'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const std::string &,std::ios_base::openmode,int)'
+          C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,28):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const std::string &,std::ios_base::openmode,int)': cannot convert argument 1 from 'const int' to 'const std::string &'
+              C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,58):
+              Reason: cannot convert from 'const int' to 'const std::string'
+              C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,58):
+              'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string': no overloaded function could convert all the argument types
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(768,5):
+                  could be 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+                      C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,58):
+                      'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )': cannot convert argument 1 from 'const int' to 'const _Elem *const '
+          with
+          [
+              _Elem=char
+          ]
+                          C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,58):
+                          Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(1340,5):
+                  or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+                      C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,58):
+                      'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': cannot convert argument 1 from 'const int' to 'std::initializer_list<_Elem>'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+          and
+          [
+              _Elem=char
+          ]
+                          C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,58):
+                          Conversion requires a second user-defined-conversion operator or constructor
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(798,5):
+                  or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(_Iter,_Iter,const _Alloc &)'
+          with
+          [
+              _Alloc=std::allocator<char>
+          ]
+                  C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,58):
+                  while trying to match the argument list '(const int)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\fstream(185,5):
+      or       'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const char *,std::ios_base::openmode,int)'
+          C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,28):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const char *,std::ios_base::openmode,int)': cannot convert argument 1 from 'const int' to 'const char *'
+              C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,58):
+              Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\fstream(211,5):
+      or       'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const _Ty &,std::ios_base::openmode,int)'
+          C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,28):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const _Ty &,std::ios_base::openmode,int)': could not deduce template argument for '__formal'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\fstream(57,26):
+              'std::enable_if_t<false,int>' : Failed to specialize alias template
+      C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(150,28):
+      while trying to match the argument list '(const int)'
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(156,10): error C2440: 'return': cannot convert from 'initializer list' to 'std::pair<NTSTATUS,std::string>'
+  (compiling source file 'drivermapper.cpp')
+      C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(156,3):
+      'std::pair<NTSTATUS,std::string>::pair': no overloaded function could convert all the argument types
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(278,5):
+          could be 'std::pair<NTSTATUS,std::string>::pair(std::pair<NTSTATUS,std::string> &&)'
+              C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(156,3):
+              'std::pair<NTSTATUS,std::string>::pair(std::pair<NTSTATUS,std::string> &&)': cannot convert argument 1 from 'const std::basic_string<char,std::char_traits<char>,std::allocator<char>>' to 'std::pair<NTSTATUS,std::string> &&'
+                  C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(156,43):
+                  Reason: cannot convert from 'const std::basic_string<char,std::char_traits<char>,std::allocator<char>>' to 'std::pair<NTSTATUS,std::string>'
+                  C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(156,43):
+                  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(277,5):
+          or       'std::pair<NTSTATUS,std::string>::pair(const std::pair<NTSTATUS,std::string> &)'
+              C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(156,3):
+              'std::pair<NTSTATUS,std::string>::pair(const std::pair<NTSTATUS,std::string> &)': cannot convert argument 1 from 'const std::basic_string<char,std::char_traits<char>,std::allocator<char>>' to 'const std::pair<NTSTATUS,std::string> &'
+                  C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(156,43):
+                  Reason: cannot convert from 'const std::basic_string<char,std::char_traits<char>,std::allocator<char>>' to 'const std::pair<NTSTATUS,std::string>'
+                  C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(156,43):
+                  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(477,5):
+          or       'std::pair<NTSTATUS,std::string>::pair(_Tuple1 &,_Tuple2 &,std::integer_sequence<size_t,_Indices1...>,std::integer_sequence<size_t,_Indices2...>)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(330,5):
+          or       'std::pair<NTSTATUS,std::string>::pair(std::piecewise_construct_t,std::tuple<_Types1...>,std::tuple<_Types2...>)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(300,5):
+          or       'std::pair<NTSTATUS,std::string>::pair(std::pair<_Other1,_Other2> &&) noexcept(<expr>)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(292,5):
+          or       'std::pair<NTSTATUS,std::string>::pair(const std::pair<_Other1,_Other2> &) noexcept(<expr>)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(271,5):
+          or       'std::pair<NTSTATUS,std::string>::pair(_Other1 &&,_Other2 &&) noexcept(<expr>)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(260,5):
+          or       'std::pair<NTSTATUS,std::string>::pair(const _Ty1 &,const _Ty2 &) noexcept(<expr>)'
+          with
+          [
+              _Ty1=NTSTATUS,
+              _Ty2=std::string
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(253,5):
+          or       'std::pair<NTSTATUS,std::string>::pair(void) noexcept(<expr>)'
+          C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(156,3):
+          while trying to match the argument list '(const std::basic_string<char,std::char_traits<char>,std::allocator<char>>)'
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(177,9): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+  (compiling source file 'drivermapper.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(177,33): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+  (compiling source file 'drivermapper.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(177,45): error C2039: 'temp_directory_path': is not a member of 'std'
+  (compiling source file 'drivermapper.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm(225,1):
+      see declaration of 'std'
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\loadup.hpp(177,45): error C3861: 'temp_directory_path': identifier not found
+  (compiling source file 'drivermapper.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\ezpdb.cpp(126,12): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\ezpdb.cpp(126,24): error C2039: 'exists': is not a member of 'std'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(29,1):
+      see declaration of 'std'
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\ezpdb.cpp(126,24): error C3861: 'exists': identifier not found
+  LenovoMemoryMgr.cpp
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(160,12): error C2988: unrecognizable template declaration/definition
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(160,12): error C2059: syntax error: 'sizeof'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(161,2): error C3646: 'BOOL': unknown override specifier
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(161,7): error C3646: 'ReadPhysData': unknown override specifier
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(161,19): error C2988: unrecognizable template declaration/definition
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(161,19): error C2059: syntax error: '('
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(161,55): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(164,12): error C2988: unrecognizable template declaration/definition
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(164,12): error C2059: syntax error: 'sizeof'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(165,2): error C3646: 'BOOL': unknown override specifier
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(165,7): error C3646: 'WritePhysData': unknown override specifier
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(165,20): error C2988: unrecognizable template declaration/definition
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(165,20): error C2059: syntax error: '('
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(165,56): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(168,12): error C2988: unrecognizable template declaration/definition
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(168,12): error C2059: syntax error: 'sizeof'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(169,2): error C3646: 'BOOL': unknown override specifier
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(169,7): error C3646: 'ReadVirtData': unknown override specifier
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(169,19): error C2988: unrecognizable template declaration/definition
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(169,19): error C2059: syntax error: '('
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(169,55): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(172,12): error C2988: unrecognizable template declaration/definition
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(172,12): error C2059: syntax error: 'sizeof'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(173,2): error C3646: 'BOOL': unknown override specifier
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(173,7): error C3646: 'WriteVirtData': unknown override specifier
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(173,20): error C2988: unrecognizable template declaration/definition
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(173,20): error C2059: syntax error: '('
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(173,56): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(109,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(90,16): warning C4091: 'typedef ': ignored on left of '_LOADED_IMAGE' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(147,14): error C2061: syntax error: identifier 'PFIND_DEBUG_FILE_CALLBACK'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(164,14): error C2061: syntax error: identifier 'PFIND_DEBUG_FILE_CALLBACKW'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(182,14): error C2061: syntax error: identifier 'PFIND_DEBUG_FILE_CALLBACK'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(192,14): error C2061: syntax error: identifier 'PFIND_DEBUG_FILE_CALLBACKW'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(213,14): error C2061: syntax error: identifier 'PFINDFILEINPATHCALLBACK'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(234,14): error C2061: syntax error: identifier 'PFINDFILEINPATHCALLBACKW'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(251,10): error C2061: syntax error: identifier 'PFIND_EXE_FILE_CALLBACK'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(268,10): error C2061: syntax error: identifier 'PFIND_EXE_FILE_CALLBACKW'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(286,14): error C2061: syntax error: identifier 'PFIND_EXE_FILE_CALLBACK'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(296,14): error C2061: syntax error: identifier 'PFIND_EXE_FILE_CALLBACKW'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(438,14): error C2061: syntax error: identifier 'PENUMDIRTREE_CALLBACK'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(455,14): error C2061: syntax error: identifier 'PENUMDIRTREE_CALLBACKW'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(530,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(524,16): warning C4091: 'typedef ': ignored on left of '_MODLOAD_DATA' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(545,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(538,16): warning C4091: 'typedef ': ignored on left of '_MODLOAD_CVMISC' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(550,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(547,16): warning C4091: 'typedef ': ignored on left of '_MODLOAD_PDBGUID_PDBAGE' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(562,14): error C2332: 'enum': missing tag name
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(562,14): error C3306: '<unnamed-tag>': unnamed class template is not allowed
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(567,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(562,14): warning C4091: 'typedef ': ignored on left of '' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(573,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(569,16): warning C4091: 'typedef ': ignored on left of '_tagADDRESS64' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(700,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(633,16): warning C4091: 'typedef ': ignored on left of '_KDHELP64' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(774,1): error C2182: 'KdHelp32To64': this use of 'void' is not valid
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(774,1): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(775,10): error C2065: 'PKDHELP64': undeclared identifier
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(775,18): error C2146: syntax error: missing ')' before identifier 'p32'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(778,1): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(778,1): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(810,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(798,16): warning C4091: 'typedef ': ignored on left of '_tagSTACKFRAME64' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(838,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(821,16): warning C4091: 'typedef ': ignored on left of '_tagSTACKFRAME_EX' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(894,10): error C2061: syntax error: identifier 'LPADDRESS64'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(928,13): error C2061: syntax error: identifier 'LPSTACKFRAME64'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(951,13): error C2061: syntax error: identifier 'LPSTACKFRAME_EX'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(966,13): error C2061: syntax error: identifier 'LPSTACKFRAME_EX'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1044,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1039,16): warning C4091: 'typedef ': ignored on left of 'API_VERSION' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1044,14): error C2988: unrecognizable template declaration/definition
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1044,14): error C2059: syntax error: ','
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1047,1): error C2144: syntax error: 'int' should be preceded by ';'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1053,1): error C2144: syntax error: 'int' should be preceded by ';'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1054,1): warning C4229: anachronism used: modifiers on data are ignored
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1054,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1054,1): error C2491: 'ImagehlpApiVersionEx': definition of dllimport data not allowed
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1055,10): error C2065: 'LPAPI_VERSION': undeclared identifier
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1055,24): error C2146: syntax error: missing ')' before identifier 'AppVersion'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1305,14): error C2332: 'enum': missing tag name
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1316,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1305,14): warning C4091: 'typedef ': ignored on left of '' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1329,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1322,16): warning C4091: 'typedef ': ignored on left of '_IMAGEHLP_SYMBOL64' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1334,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1331,16): warning C4091: 'typedef ': ignored on left of '_IMAGEHLP_SYMBOL64_PACKAGE' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1343,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1336,16): warning C4091: 'typedef ': ignored on left of '_IMAGEHLP_SYMBOLW64' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1348,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1345,16): warning C4091: 'typedef ': ignored on left of '_IMAGEHLP_SYMBOLW64_PACKAGE' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1430,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1401,16): warning C4091: 'typedef ': ignored on left of '_IMAGEHLP_MODULE64' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1436,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1433,16): warning C4091: 'typedef ': ignored on left of '_IMAGEHLP_MODULE64_EX' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1471,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1442,16): warning C4091: 'typedef ': ignored on left of '_IMAGEHLP_MODULEW64' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1477,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1474,16): warning C4091: 'typedef ': ignored on left of '_IMAGEHLP_MODULEW64_EX' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1530,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1524,16): warning C4091: 'typedef ': ignored on left of '_IMAGEHLP_LINE64' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1538,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1532,16): warning C4091: 'typedef ': ignored on left of '_IMAGEHLP_LINEW64' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1568,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1565,16): warning C4091: 'typedef ': ignored on left of '_SOURCEFILE' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1573,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1570,16): warning C4091: 'typedef ': ignored on left of '_SOURCEFILEW' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1611,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1606,16): warning C4091: 'typedef ': ignored on left of '_IMAGEHLP_CBA_READ_MEMORY' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1613,6): error C2332: 'enum': missing tag name
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1630,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1625,16): warning C4091: 'typedef ': ignored on left of '_IMAGEHLP_CBA_EVENT' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1637,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1632,16): warning C4091: 'typedef ': ignored on left of '_IMAGEHLP_CBA_EVENTW' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1648,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1639,16): warning C4091: 'typedef ': ignored on left of '_IMAGEHLP_DEFERRED_SYMBOL_LOAD64' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1659,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1650,16): warning C4091: 'typedef ': ignored on left of '_IMAGEHLP_DEFERRED_SYMBOL_LOADW64' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1688,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1683,16): warning C4091: 'typedef ': ignored on left of '_IMAGEHLP_DUPLICATE_SYMBOL64' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1706,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1702,16): warning C4091: 'typedef ': ignored on left of '_IMAGEHLP_JIT_SYMBOL_MAP' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1752,14): error C2332: 'enum': missing tag name
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1757,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1752,14): warning C4091: 'typedef ': ignored on left of '' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1762,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1759,16): warning C4091: 'typedef ': ignored on left of '_OMAP' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1769,11): error C2061: syntax error: identifier 'POMAP'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1825,14): error C2332: 'enum': missing tag name
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1831,3): error C2143: syntax error: missing ';' before 'identifier'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1825,14): warning C4091: 'typedef ': ignored on left of '' when no variable is declared
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1866,1): warning C4229: anachronism used: modifiers on data are ignored
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1866,1): error C2491: 'SymGetExtendedOption': definition of dllimport data not allowed
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1866,27): error C2065: 'IMAGEHLP_EXTENDED_OPTIONS': undeclared identifier
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1866,53): error C2146: syntax error: missing ')' before identifier 'option'
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1871,1): warning C4229: anachronism used: modifiers on data are ignored
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1871,1): error C2491: 'SymSetExtendedOption': definition of dllimport data not allowed
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\DbgHelp.h(1871,1): error C1003: error count exceeds 100; stopping compilation
+  (compiling source file 'LenovoMemoryMgr.cpp')
+  
+  LenovoMemoryMgr.h
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(160,12): error C2988: unrecognizable template declaration/definition
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(160,12): error C2059: syntax error: 'sizeof'
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(161,2): error C3646: 'BOOL': unknown override specifier
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(161,7): error C3646: 'ReadPhysData': unknown override specifier
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(161,19): error C2988: unrecognizable template declaration/definition
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(161,19): error C2059: syntax error: '('
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(161,55): error C2238: unexpected token(s) preceding ';'
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(164,12): error C2988: unrecognizable template declaration/definition
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(164,12): error C2059: syntax error: 'sizeof'
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(165,2): error C3646: 'BOOL': unknown override specifier
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(165,7): error C3646: 'WritePhysData': unknown override specifier
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(165,20): error C2988: unrecognizable template declaration/definition
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(165,20): error C2059: syntax error: '('
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(165,56): error C2238: unexpected token(s) preceding ';'
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(168,12): error C2988: unrecognizable template declaration/definition
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(168,12): error C2059: syntax error: 'sizeof'
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(169,2): error C3646: 'BOOL': unknown override specifier
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(169,7): error C3646: 'ReadVirtData': unknown override specifier
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(169,19): error C2988: unrecognizable template declaration/definition
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(169,19): error C2059: syntax error: '('
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(169,55): error C2238: unexpected token(s) preceding ';'
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(172,12): error C2988: unrecognizable template declaration/definition
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(172,12): error C2059: syntax error: 'sizeof'
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(173,2): error C3646: 'BOOL': unknown override specifier
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(173,7): error C3646: 'WriteVirtData': unknown override specifier
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(173,20): error C2988: unrecognizable template declaration/definition
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(173,20): error C2059: syntax error: '('
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\LenovoMemoryMgr.h(173,56): error C2238: unexpected token(s) preceding ';'
+  Main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\Main.cpp(11,21): error C2039: 'filesystem': is not a member of 'std'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(29,1):
+      see declaration of 'std'
+  
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\Main.cpp(11,21): error C2878: 'filesystem': a namespace or class of this name does not exist
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\Main.cpp(37,10): error C2653: 'fs': is not a class or namespace name
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\Main.cpp(37,14): error C3861: 'exists': identifier not found
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\Main.cpp(43,9): error C2653: 'fs': is not a class or namespace name
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\Main.cpp(43,13): error C3861: 'path': identifier not found
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\Main.cpp(48,38): error C2653: 'fs': is not a class or namespace name
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\Main.cpp(48,42): error C3861: 'path': identifier not found
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\Main.cpp(93,10): error C2653: 'fs': is not a class or namespace name
+C:\Users\PC\Downloads\Polonium Mapper\Ashy1337s Own drivermapper\Main.cpp(93,14): error C3861: 'exists': identifier not found
+  md5.cpp
+  Generating Code...

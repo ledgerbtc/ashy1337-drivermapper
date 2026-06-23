@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Release\\LenovoMemoryMgr.obj",
+            "outputs": [
+                "x64\\Release\\LenovoMemoryMgr.h_A91E6E22EEC10925.ifc.dt.module.json",
+                "x64\\Release\\LenovoMemoryMgr.h_A91E6E22EEC10925.ifc.dt.d.json",
+                "x64\\Release\\LenovoMemoryMgr.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\Users\\PC\\source\\repos\\Ashy1337s Own drivermapper\\Ashy1337s Own drivermapper\\LenovoMemoryMgr.h",
+                    "source-path": "c:\\users\\pc\\source\\repos\\ashy1337s own drivermapper\\ashy1337s own drivermapper\\lenovomemorymgr.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
